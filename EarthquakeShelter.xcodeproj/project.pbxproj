@@ -12,6 +12,10 @@
 		34D2B61F217709B700998C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B61D217709B700998C57 /* Main.storyboard */; };
 		34D2B621217709B800998C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B620217709B800998C57 /* Assets.xcassets */; };
 		34D2B624217709B800998C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B622217709B800998C57 /* LaunchScreen.storyboard */; };
+		34D2B62D217709C400998C57 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2B62C217709C400998C57 /* MapKit.framework */; };
+		34D2B62F21770A8F00998C57 /* ShelterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2B62E21770A8F00998C57 /* ShelterViewController.swift */; };
+		34D2B63121770B0200998C57 /* Shelter.xml in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B63021770B0200998C57 /* Shelter.xml */; };
+		34D2B63321770BC600998C57 /* 지진대피요령.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B63221770BC600998C57 /* 지진대피요령.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		34D2B620217709B800998C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D2B623217709B800998C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D2B625217709B800998C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D2B62C217709C400998C57 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		34D2B62E21770A8F00998C57 /* ShelterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterViewController.swift; sourceTree = "<group>"; };
+		34D2B63021770B0200998C57 /* Shelter.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shelter.xml; sourceTree = "<group>"; };
+		34D2B63221770BC600998C57 /* 지진대피요령.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "지진대피요령.jpg"; path = "../../../Documents/EarthquakeShelter/EarthquakeShelter/지진대피요령.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D2B62D217709C400998C57 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,7 @@
 			children = (
 				34D2B618217709B700998C57 /* EarthquakeShelter */,
 				34D2B617217709B700998C57 /* Products */,
+				34D2B62B217709C400998C57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +64,25 @@
 		34D2B618217709B700998C57 /* EarthquakeShelter */ = {
 			isa = PBXGroup;
 			children = (
+				34D2B63221770BC600998C57 /* 지진대피요령.jpg */,
 				34D2B619217709B700998C57 /* AppDelegate.swift */,
 				34D2B61B217709B700998C57 /* ViewController.swift */,
 				34D2B61D217709B700998C57 /* Main.storyboard */,
+				34D2B63021770B0200998C57 /* Shelter.xml */,
+				34D2B62E21770A8F00998C57 /* ShelterViewController.swift */,
 				34D2B620217709B800998C57 /* Assets.xcassets */,
 				34D2B622217709B800998C57 /* LaunchScreen.storyboard */,
 				34D2B625217709B800998C57 /* Info.plist */,
 			);
 			path = EarthquakeShelter;
+			sourceTree = "<group>";
+		};
+		34D2B62B217709C400998C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D2B62C217709C400998C57 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D2B63321770BC600998C57 /* 지진대피요령.jpg in Resources */,
 				34D2B624217709B800998C57 /* LaunchScreen.storyboard in Resources */,
+				34D2B63121770B0200998C57 /* Shelter.xml in Resources */,
 				34D2B621217709B800998C57 /* Assets.xcassets in Resources */,
 				34D2B61F217709B700998C57 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D2B62F21770A8F00998C57 /* ShelterViewController.swift in Sources */,
 				34D2B61C217709B700998C57 /* ViewController.swift in Sources */,
 				34D2B61A217709B700998C57 /* AppDelegate.swift in Sources */,
 			);

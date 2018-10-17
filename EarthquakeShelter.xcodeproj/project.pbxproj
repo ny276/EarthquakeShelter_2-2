@@ -15,7 +15,7 @@
 		34D2B62D217709C400998C57 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2B62C217709C400998C57 /* MapKit.framework */; };
 		34D2B62F21770A8F00998C57 /* ShelterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2B62E21770A8F00998C57 /* ShelterViewController.swift */; };
 		34D2B63121770B0200998C57 /* Shelter.xml in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B63021770B0200998C57 /* Shelter.xml */; };
-		34D2B63321770BC600998C57 /* 지진대피요령.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B63221770BC600998C57 /* 지진대피요령.jpg */; };
+		34D2B63521770E4D00998C57 /* 지진대피요령.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34D2B63421770E4C00998C57 /* 지진대피요령.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		34D2B62C217709C400998C57 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		34D2B62E21770A8F00998C57 /* ShelterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterViewController.swift; sourceTree = "<group>"; };
 		34D2B63021770B0200998C57 /* Shelter.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Shelter.xml; sourceTree = "<group>"; };
-		34D2B63221770BC600998C57 /* 지진대피요령.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "지진대피요령.jpg"; path = "../../../Documents/EarthquakeShelter/EarthquakeShelter/지진대피요령.jpg"; sourceTree = "<group>"; };
+		34D2B63421770E4C00998C57 /* 지진대피요령.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "지진대피요령.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		34D2B618217709B700998C57 /* EarthquakeShelter */ = {
 			isa = PBXGroup;
 			children = (
-				34D2B63221770BC600998C57 /* 지진대피요령.jpg */,
+				34D2B63421770E4C00998C57 /* 지진대피요령.jpg */,
 				34D2B619217709B700998C57 /* AppDelegate.swift */,
 				34D2B61B217709B700998C57 /* ViewController.swift */,
 				34D2B61D217709B700998C57 /* Main.storyboard */,
@@ -143,7 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D2B63321770BC600998C57 /* 지진대피요령.jpg in Resources */,
+				34D2B63521770E4D00998C57 /* 지진대피요령.jpg in Resources */,
 				34D2B624217709B800998C57 /* LaunchScreen.storyboard in Resources */,
 				34D2B63121770B0200998C57 /* Shelter.xml in Resources */,
 				34D2B621217709B800998C57 /* Assets.xcassets in Resources */,

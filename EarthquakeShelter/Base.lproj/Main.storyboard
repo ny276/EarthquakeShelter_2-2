@@ -117,26 +117,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="지진대피요령.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hvB-5U-PCE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="지진대피요령.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FZ8-PW-d3y">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="Bnh-iw-wme"/>
-                                    <constraint firstAttribute="height" constant="603" id="EEk-eG-FcH"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="Tvi-u7-suU"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="603" id="ggP-8n-j6D"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="6yL-Q5-d9h"/>
+                                    <constraint firstAttribute="width" constant="375" id="Gma-sI-gar"/>
+                                    <constraint firstAttribute="height" constant="603" id="LGS-Y7-WdV"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="603" id="LzK-7f-82Q"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="leading" secondItem="Lzd-Wf-mYd" secondAttribute="leading" id="2Eg-Oh-e9Q"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="bottom" secondItem="Lzd-Wf-mYd" secondAttribute="bottom" id="Cj0-No-WFx"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="trailing" secondItem="Lzd-Wf-mYd" secondAttribute="trailing" id="Tf1-6U-DG6"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="leading" secondItem="Lzd-Wf-mYd" secondAttribute="leading" id="Tu6-7f-KaI"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="bottom" secondItem="Lzd-Wf-mYd" secondAttribute="bottom" id="aZc-fF-JzG"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="top" secondItem="Lzd-Wf-mYd" secondAttribute="top" id="dk9-S6-WZo"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="top" secondItem="Lzd-Wf-mYd" secondAttribute="top" id="mC0-mP-Tmf"/>
-                            <constraint firstItem="hvB-5U-PCE" firstAttribute="trailing" secondItem="Lzd-Wf-mYd" secondAttribute="trailing" id="yf8-UR-Oxc"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="top" secondItem="Lzd-Wf-mYd" secondAttribute="top" id="4fB-WN-Pr6"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="trailing" secondItem="Lzd-Wf-mYd" secondAttribute="trailing" id="CsL-ca-r6W"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="top" secondItem="Lzd-Wf-mYd" secondAttribute="top" id="GAh-II-Tie"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="bottom" secondItem="Lzd-Wf-mYd" secondAttribute="bottom" id="Nda-06-H4t"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="bottom" secondItem="Lzd-Wf-mYd" secondAttribute="bottom" id="jSA-KJ-VWy"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="leading" secondItem="Lzd-Wf-mYd" secondAttribute="leading" id="kHB-VJ-fYE"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="leading" secondItem="Lzd-Wf-mYd" secondAttribute="leading" id="nh5-jO-xEw"/>
+                            <constraint firstItem="FZ8-PW-d3y" firstAttribute="trailing" secondItem="Lzd-Wf-mYd" secondAttribute="trailing" id="pNK-YH-PnQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Lzd-Wf-mYd"/>
                     </view>

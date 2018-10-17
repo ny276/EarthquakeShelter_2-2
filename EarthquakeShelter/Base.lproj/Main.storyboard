@@ -69,20 +69,24 @@
             </objects>
             <point key="canvasLocation" x="-114.40000000000001" y="-632.83358320839591"/>
         </scene>
-        <!--Root View Controller-->
+        <!--부산 지진대피소-->
         <scene sceneID="IZT-v8-xyC">
             <objects>
-                <tableViewController id="tKz-04-Z3L" sceneMemberID="viewController">
+                <tableViewController id="tKz-04-Z3L" customClass="MapTableViewController" customModule="EarthquakeShelter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ipH-qv-ode">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <mapView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="GGC-Y3-xPk">
+                            <rect key="frame" x="0.0" y="29" width="375" height="575"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </mapView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="cxX-Tj-JGc">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="1" id="cxX-Tj-JGc">
+                                <rect key="frame" x="0.0" y="28" width="375" height="1"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cxX-Tj-JGc" id="fCt-Ld-Eyp">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -92,7 +96,7 @@
                             <outlet property="delegate" destination="tKz-04-Z3L" id="adg-gG-yaN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="iqH-cc-6C8">
+                    <navigationItem key="navigationItem" title="부산 지진대피소" id="iqH-cc-6C8">
                         <barButtonItem key="leftBarButtonItem" title="대피소" id="dw0-9E-BzM">
                             <connections>
                                 <segue destination="E2E-3y-u5i" kind="show" id="b4L-2w-9uj"/>
@@ -107,7 +111,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUW-UX-Zvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-113" y="42"/>
+            <point key="canvasLocation" x="-114.40000000000001" y="41.829085457271368"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1AV-u1-pXD">
